@@ -1,0 +1,142 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(pink, lightblue, orange, green);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0px 1px 1px rgb(0, 0, 0);
+    background-color: rgba(2, 23, 6, 0.558);
+    margin: 20px 200px;
+}
+
+span {
+    text-decoration: underline;
+    font-size: 40px;
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular';
+    text-shadow: -4px 4px 0 black;
+}
+
+#bff-img {
+    width: 200px;
+    height: 250px;
+    border-radius: 500px;
+    border: 6px solid #078aa8;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #466750;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin: 5px 0 10px 0;
+    text-shadow: -5px 3px 0 black;
+}
+
+#bday-date {
+    margin: 0;
+    background: linear-gradient(#EFB0C9, #466750, skyblue);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.header-txt {
+    padding: 10px 8px;
+    border-radius: 8px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+    background-color: rgb(241, 87, 87);
+}
+
+.gift-img {
+    margin: 20px auto;
+    width: 450px;
+    height: 450px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-bros:hover {
+    background-image: url("images/Zoom\ and\ Fon.jpg");
+    border: 6px solid green;
+}
+
+#gift-img-happy:hover {
+    background-image: url("images/awesome.gif");
+    border: 6px solid green;
+}
+
+#gift-img-hot:hover {
+    background-image: url("images/hot.gif");
+    border: 6px solid green;
+}
+
+#gift-img-dance:hover {
+    background-image: url("images/dance.gif");
+    border: 6px solid green;
+}
+
+#gift-img-badass:hover {
+    background-image: url("images/num10.gif");
+    border: 6px solid green;
+}
+
+#gift-img-loverBoi:hover {
+    background-image: url("images/tomlove.gif");
+    border: 6px solid green;
+}
+
+#gift-img-cheers:hover {
+    background-image: url("images/girlsembofolo.webp");
+    border: 6px solid green;
+}
+
+.footer {
+    margin: 30px 150px;
+    border-radius: 30px;
+    background-color: black;
+    padding: 8px 0px;
+    margin-bottom: 20px;
+}
+
+.footer > a {
+    font-size: 20px;
+    color: white;
+}
+
+.creator {
+    color: red;
+    background: none;
+    text-align: right;
+    margin-top: -20px;
+}
+
+.creator > a {
+    text-decoration: none;
+    font-style: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-shadow: -2px 1px black;
+    font-size: 20px;
+    border-bottom: 4px solid black;
+}
